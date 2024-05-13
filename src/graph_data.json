@@ -1,0 +1,52 @@
+{
+    "originalgraphdata": {
+        "nodes": [
+            {
+                "id": "A"
+            },
+            {
+                "id": "B"
+            },
+            {
+                "id": "C"
+            },
+            {
+                "id": "D"
+            }
+        ],
+        "links": [
+            {
+                "source": "A",
+                "target": "B",
+                "sign": "-"
+            },
+            {
+                "source": "A",
+                "target": "C",
+                "sign": "-"
+            },
+            {
+                "source": "A",
+                "target": "D",
+                "sign": "-"
+            },
+            {
+                "source": "B",
+                "target": "C",
+                "sign": "-"
+            },
+            {
+                "source": "B",
+                "target": "D",
+                "sign": "-"
+            },
+            {
+                "source": "C",
+                "target": "D",
+                "sign": "+"
+            }
+        ]
+    },
+    "isbalanced": false,
+    "isweakbalanced": true
+}
