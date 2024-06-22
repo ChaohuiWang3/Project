@@ -18,22 +18,22 @@
             {
                 "source": "A",
                 "target": "B",
-                "sign": "-"
+                "sign": "+"
             },
             {
                 "source": "A",
                 "target": "C",
-                "sign": "-"
+                "sign": "+"
             },
             {
                 "source": "A",
                 "target": "D",
-                "sign": "-"
+                "sign": "+"
             },
             {
                 "source": "B",
                 "target": "C",
-                "sign": "-"
+                "sign": "+"
             },
             {
                 "source": "B",
@@ -43,10 +43,10 @@
             {
                 "source": "C",
                 "target": "D",
-                "sign": "+"
+                "sign": "-"
             }
         ]
     },
     "isbalanced": false,
-    "isweakbalanced": true
+    "isweakbalanced": false
 }
