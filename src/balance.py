@@ -14,7 +14,7 @@ def generate_random_graph(num_nodes):
                 sign = random.choice(['+', '-'])  # Randomly choose '+' or '-' sign as relation
                 neighbors.append((chr(65 + j), sign)) #add node j and its sign(relation with i) as a tuple into neighbors list, chr transfers j node into its corresponding captial letter
         graph[chr(65 + i)] = neighbors #assign neighbors list to this i node
-    return graph
+    return 
 
 
 num_nodes = 4  #number of nodes in the graph
@@ -35,7 +35,7 @@ def spanning_tree(graph, start):
                 queue.append(adjacent) #add adjacent node to the queue
                 tree_links.append((node, adjacent, sign)) #tree_link add this tuple
 
-    return visited, tree_links
+    return visited, tree_links 
 
 
 # Check non-tree links
